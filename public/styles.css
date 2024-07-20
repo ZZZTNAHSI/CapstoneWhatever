@@ -62,3 +62,11 @@ footer {
     display: inline;
     border: 3px solid #E68369;
 }
+
+h3 {
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
