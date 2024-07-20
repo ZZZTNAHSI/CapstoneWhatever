@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="/styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <header class="text" >
+            <p>
+                I'm Twinking
+            </p>
+        </header>
+        <form class="margs" action="/waifus" method="post" >
+            <input placeholder="1 - 30 Waifus (optional)" type="number" name="int" class="text textField" />
+            <button type="submit" class="text">
+                +
+            </button>
+        </form>
+        <div class="margs imageContainer">
+            <%- include("images.ejs") %>
+
+        </div>
+    </div>
+    <footer>
+        <p class="text footerText">
+            IKM © 2024
+        </p>
+    </footer>
+    
+</body>
+</html>
